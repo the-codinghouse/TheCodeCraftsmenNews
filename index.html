@@ -52,9 +52,9 @@
     // Set your RSS feed URL here.
     // Note: Using a third-party conversion service to avoid CORS issues.
     // You can sign up for a free API key at rss2json.com (or use another service).
-    const rssFeedUrl = "https://worldofpcgames.com/feed";
-    const apiKey = "YOUR_RSS2JSON_API_KEY"; // Replace with your API key
-    const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssFeedUrl)}&api_key=${apiKey}`;
+    const rssFeedUrl = "https://feeds.feedburner.com/ign/games-all";
+    //const apiKey = "YOUR_RSS2JSON_API_KEY"; // Replace with your API key
+    const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssFeedUrl)}`;//&api_key=${apiKey}
 
     // Function to fetch and display news
     function fetchNews() {
